@@ -32,7 +32,7 @@ body {
     margin: 0;
     aspect-ratio: unset;
     background: linear-gradient(rgba(62, 52, 65, 0.7), rgba(44, 62, 80, 0.9)),
-                url('../images/lonely-lady.png');
+                url('../images/lonely-lady.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,13 +90,29 @@ body {
 .steps-list {
     list-style-position: inside;
     margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
 }
 
 .steps-list li {
-    margin-bottom: 1rem;
-    padding: 1rem;
+    margin-bottom: 0;
+    padding: 1.5rem;
     background: var(--light-bg);
     border-radius: 4px;
+    transition: transform 0.2s ease;
+    background-color: #3498db;
+    color: white;
+}
+
+.steps-list li:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .steps-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Contact Section */
