@@ -3,57 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guide to understanding and implementing safeguarding practices">
     <title>Safeguarding Practices Guide</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header class="hero">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="hero" role="banner" aria-label="Page header">
         <div class="hero-content">
             <h1>Understanding Safeguarding</h1>
-            <p>Learn how to recognize and respond to safeguarding concerns</p>
+            <p role="doc-subtitle">Learn how to recognize and respond to safeguarding concerns</p>
         </div>
     </header>
 
-    <main>
-        <section class="key-info">
-            <h2>What is Safeguarding?</h2>
-            <div class="info-grid">
-                <div class="info-card">
+    <main id="main-content" role="main">
+        <section class="key-info" aria-labelledby="safeguarding-title">
+            <h2 id="safeguarding-title">What is Safeguarding?</h2>
+            <div class="info-grid" role="list">
+                <div class="info-card" role="listitem">
                     <h3>Protection</h3>
                     <p>Safeguarding means protecting people's right to live safely, free from abuse and neglect.</p>
                 </div>
-                <div class="info-card">
+                <div class="info-card" role="listitem">
                     <h3>Prevention</h3>
                     <p>Taking proactive steps to prevent harm before it occurs.</p>
                 </div>
             </div>
         </section>
 
-        <section class="action-steps">
-            <h2>How to Respond to Concerns</h2>
-            <ul class="steps-list">
-                <li>Recognize signs of abuse or neglect</li>
-                <li>Respond calmly and take the person seriously</li>
-                <li>Record all details accurately</li>
-                <li>Report to appropriate authorities</li>
-                <li>Maintain confidentiality</li>
+        <section class="action-steps" aria-labelledby="response-title">
+            <h2 id="response-title">How to Respond to Concerns</h2>
+            <ul class="steps-list" role="list" aria-label="Steps to respond to safeguarding concerns">
+                <li role="listitem">Recognize signs of abuse or neglect</li>
+                <li role="listitem">Respond calmly and take the person seriously</li>
+                <li role="listitem">Record all details accurately</li>
+                <li role="listitem">Report to appropriate authorities</li>
+                <li role="listitem">Maintain confidentiality</li>
             </ul>
         </section>
     </main>
 
-    <footer class="contact-section">
-        <h2>Emergency Contacts</h2>
-        <div class="contact-grid">
-            <div class="contact-card">
+    <footer class="contact-section" role="contentinfo" aria-label="Emergency contact information">
+        <h2 id="emergency-contacts">Emergency Contacts</h2>
+        <div class="contact-grid" role="list">
+            <div class="contact-card" role="listitem">
                 <h3>Emergency Services</h3>
-                <p>Call: 999</p>
+                <p>Call: <a href="tel:999" aria-label="Call emergency services">999</a></p>
             </div>
-            <div class="contact-card">
+            <div class="contact-card" role="listitem">
                 <h3>Safeguarding Hotline</h3>
-                <p>Call: 0800 123 4567</p>
+                <p>Call: <a href="tel:08001234567" aria-label="Call safeguarding hotline">0800 123 4567</a></p>
             </div>
         </div>
     </footer>
-    
 </body>
 </html>

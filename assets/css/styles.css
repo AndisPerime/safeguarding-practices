@@ -136,6 +136,39 @@ body {
     text-align: center;
 }
 
+/* Accessibility Styles */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Focus styles */
+a:focus,
+button:focus {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+    .hero,
+    .info-card,
+    .steps-list li,
+    .contact-card {
+        border: 2px solid currentColor;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .info-grid,
