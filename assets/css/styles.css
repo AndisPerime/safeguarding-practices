@@ -117,9 +117,19 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background-color: var(--primary-color);
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.9)),
+                url('../images/ukflag-service.webp');
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
     color: white;
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-grid {
@@ -173,6 +183,64 @@ button:focus {
 @media (max-width: 768px) {
     .info-grid,
     .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer Section */
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: start;
+}
+
+.footer-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+.footer-card:hover {
+    transform: translateY(-5px);
+}
+
+.footer-card h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.card-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.card-content p {
+    margin-bottom: 0.75rem;
+}
+
+.card-content a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 2px;
+    transition: color 0.2s ease;
+}
+
+.card-content a:hover {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .footer-content {
         grid-template-columns: 1fr;
     }
 }
