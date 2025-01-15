@@ -45,16 +45,12 @@
         </section>
         <section class="video-section">
             <div class="video-container">
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/qWO_WfnRW_U?si=oVxsR4wTkrnxK95d" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                </iframe>
+                <div class="video-facade" data-video-id="qWO_WfnRW_U">
+                    <div class="play-button" role="button" tabindex="0" aria-label="Play video">
+                        <span class="play-icon">▶</span>
+                    </div>
+                    <div class="video-title">Understanding Safeguarding Practices</div>
+                </div>
             </div>
         </section>
         <section class="action-steps" aria-labelledby="response-title">
@@ -89,7 +85,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="assets/js/video-facade.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 </html>
