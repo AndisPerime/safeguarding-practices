@@ -37,7 +37,7 @@ The Safeguarding Practices Guide aims to provide essential information about saf
 [Back to Contents](#contents)
 
 ## Wireframe
-![Wireframe](assets/images/Wireframe 1.png)
+![Wireframe](assets/images/Wireframe-1.png)
 [Back to Contents](#contents)
 
 ## Project Structure
