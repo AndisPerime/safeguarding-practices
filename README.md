@@ -37,7 +37,7 @@ The Safeguarding Practices Guide aims to provide essential information about saf
 [Back to Contents](#contents)
 
 ## Wireframe
-![alt text](images/readme/Wireframe 1.jpg)
+![Wireframe](images/Wireframe 1.png)
 [Back to Contents](#contents)
 
 ## Project Structure
@@ -90,7 +90,7 @@ None - The project uses vanilla HTML, CSS, and JavaScript.
 [Back to Contents](#contents)
 
 ## AI Usage
-I used AI to assist in retagging of common code text and for the generation of the images for hero and footer image. 
+I used AI to assist in retagging of common code text, styling and for the generation of the images for hero and footer image. 
 
 [Back to Contents](#contents)
 
