@@ -37,7 +37,7 @@ The Safeguarding Practices Guide aims to provide essential information about saf
 [Back to Contents](#contents)
 
 ## Wireframe
-![alt text](images/readme/Wireframe.jpg)
+![alt text](images/readme/Wireframe 1.jpg)
 [Back to Contents](#contents)
 
 ## Project Structure
@@ -119,6 +119,6 @@ I used AI to assist in retagging of common code text and for the generation of t
    - No errors found using W3C CSS validator
 3. Accessibility
    - WAVE WebAIM accessibility evaluation
-   - Lighthouse accessibility score: XX
+   - Lighthouse accessibility score: 100
 
 [Back to Contents](#contents)
