@@ -14,7 +14,6 @@
 - [Features](#features)
 - [AI Usage](#ai-usage)
 - [How to Run / Deployment](#how-to-run--deployment)
-- [Contributing](#contributing)
 - [License](#license)
 - [Validator Testing](#validator-testing)
 
@@ -61,11 +60,6 @@ safeguarding-practices/
 
 ## Pages
 - **index.html:** The main landing page for the Safeguarding Practices Guide website.
-- **anxiety.html:** Provides information about anxiety, its symptoms, and management techniques.
-- **depression.html:** Offers insights into depression, its signs, and coping strategies.
-- **resilience.html:** Discusses building resilience and maintaining mental well-being.
-- **smile.html:** Focuses on the importance of smiling and positive thinking.
-- **stress.html:** Covers stress management and relaxation techniques.
 
 [Back to Contents](#contents)
 
@@ -75,14 +69,12 @@ safeguarding-practices/
 [Back to Contents](#contents)
 
 ## Images
-- **images/orig/:** Containts original images before resizing.
-- **images/readme/:** Contains images used in the readme file.
-- **images/Smiles/:** Contains images used in the smile.html page.
+- **images/:** Contains website images including hero and footer backgrounds
 
 [Back to Contents](#contents)
 
 ## Dependencies
-- **Bootstrap 5.3.3:** Used for responsive design and styling. Included via CDN.
+None - The project uses vanilla HTML, CSS, and JavaScript.
 
 [Back to Contents](#contents)
 
@@ -98,26 +90,16 @@ safeguarding-practices/
 [Back to Contents](#contents)
 
 ## AI Usage
-I used AI to assist in retagging of common code text and for the generation of the images on the front page. 
+I used AI to assist in retagging of common code text and for the generation of the images for hero and footer image. 
 
 [Back to Contents](#contents)
 
 ## How to Run / Deployment
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/Mental-Health-Awareness.git
+    git clone https://andisperime.github.io/safeguarding-practices/
     ```
 2. Open `index.html` in your web browser to view the website.
-
-[Back to Contents](#contents)
-
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-[Back to Contents](#contents)
-
-## License
-This project is licensed under the MIT License.
 
 [Back to Contents](#contents)
 
@@ -137,6 +119,6 @@ This project is licensed under the MIT License.
    - No errors found using W3C CSS validator
 3. Accessibility
    - WAVE WebAIM accessibility evaluation
-   - Lighthouse accessibility score: 100
+   - Lighthouse accessibility score: XX
 
 [Back to Contents](#contents)
